@@ -88,19 +88,49 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		FVector GunOffset;
 
-	/** Health */
+	//All wizard properties located here
+
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Gameplay)
 	UPROPERTY(Replicated)
 	float Health;
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Gameplay)
 	float maxHealth;
+	UPROPERTY(Replicated)
+	float Mana;
+	float corruptionLevel;
+	float maxCorruption;
+	float madnessLevel;
+	float maxMadness;
+	float damageMod;
+	float healingMod;
+	float selfDamageMod;
+	float selfHealingMod;
+	AWizardsCharacter* connectedWizard;//for skills that use the connected wizard effect
+	TArray<float> resistances;//light, dark, heat, cold, kinetic, nature, corruption, madness
+	TArray<float> statusEffectMods;//slow, slow duration, haste, haste duration, fire, fire duration, mending, mending duration, feather, feather duration, bind duration, 
+	TArray<float> specialSkills;//the special skill in question as well as its strength
+	//special skills to go in this array to be listed here
+	//CoM skill 2, will need an if() when a character gets healed
+	//CoM Skill 3, same as above
+	//Com Skill 4, will need to implement inside of a check-for-nearest ally function
+	//Com Skill 5, will need an if() when a character gets healed
+	//Com Skill 6, will need an if() on death that causes a function that causes a healing blast
+	//Com skill 7, will need a function to make target ally connected and an isConnected check on heals
+	//Com skill 8, same as above but on death
+	//com skill 9, same as above but on damage
+	//com skill 10, need to implement inside of a check-for-nearest ally function
+	//com skill 11, same as 7-9 but on status effect
+	//com skill 12, same as 7-9 but on corruption/madness
+	//coc skill 1, needs an if() on taking damage
+
+
+	//end wizard properties
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Gameplay)
 		bool isDead = false;
 
 	/** Mana */
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Gameplay)
-	UPROPERTY(Replicated)
-		float Mana;
 	bool Attacking = false;
 	bool Firing = false;
 	float FiringVal = 0.0f;

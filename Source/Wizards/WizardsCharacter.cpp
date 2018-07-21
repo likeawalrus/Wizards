@@ -22,12 +22,26 @@
 
 AWizardsCharacter::AWizardsCharacter()
 {
+
 	bReplicates = true;
 	PrimaryActorTick.bCanEverTick = true;
 	Health = 100.0;
 	maxHealth = 100.0;
 	Mana = 100.0;
 	maxMana = 100.0;
+	corruptionLevel = 0.0;
+	maxCorruption = 100.0;
+	madnessLevel = 0.0;
+	maxMadness = 100.0;
+	damageMod = 1.0;
+	healingMod = 1.0;
+	selfDamageMod = 1.0;
+	selfHealingMod = 1.0;
+	resistances.AddDefaulted(8);
+	for (int i = 0; i < 8; i++)
+	{
+		resistances[i] = 1.0;
+	}
 	UCharacterMovementComponent* myMovement = GetCharacterMovement();
 	myMovement->MaxWalkSpeed = 450.0;
 	ConstructorHelpers::FObjectFinder<UParticleSystem> ArbitraryParticleName(TEXT("ParticleSystem'/Game/StarterContent/Particles/P_Sparks.P_Sparks'"));
