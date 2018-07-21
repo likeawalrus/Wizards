@@ -72,7 +72,7 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/Build/*
+#Intermediate/Build/*
 Intermediate/AssetRegistryCache/*
 Intermediate/ReimportCache/*
 Plugins/*/Intermediate/*

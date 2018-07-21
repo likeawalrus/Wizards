@@ -1,0 +1,30 @@
+﻿  Creating makefile for WizardsEditor (ini files are newer than UBTMakefile)
+  Parsing headers for WizardsEditor
+    Running UnrealHeaderTool "I:\Projects\Wizards\Wizards.uproject" "I:\Projects\Wizards\Intermediate\Build\Win64\WizardsEditor\Development\WizardsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for WizardsEditor in 7.4460108 seconds
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-1087.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-1087.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-2083.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-2083.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-2391.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-2391.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-361.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-361.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-3888.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-3888.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-5510.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-5510.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-7068.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-7068.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-8151.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-8151.pdb".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-8390.dll".
+  Deleting old hot reload file: "I:\Projects\Wizards\Binaries\Win64\UE4Editor-Wizards-8390.pdb".
+  Performing 3 actions (4 in parallel)
+  WizardsCharacter.cpp
+  [2/3] Link UE4Editor-Wizards.dll
+  [3/3] Link UE4Editor-Wizards.lib
+     Creating library I:\Projects\Wizards\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Wizards.lib and object I:\Projects\Wizards\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Wizards.exp
+     Creating library I:\Projects\Wizards\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Wizards.suppressed.lib and object I:\Projects\Wizards\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Wizards.suppressed.exp
+  Deploying WizardsEditor Win64 Development...
+  Total build time: 41.34 seconds (Local executor: 13.44 seconds)

@@ -1,0 +1,3 @@
+I:\Projects\Wizards\Source\Wizards\Wizards.Build.cs
+I:\Projects\Wizards\Source\Wizards.Target.cs
+I:\Projects\Wizards\Source\WizardsEditor.Target.cs
