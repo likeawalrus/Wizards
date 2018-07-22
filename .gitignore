@@ -58,9 +58,9 @@ Plugins/*/Binaries/*
 Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
+#!Build/*/
+#Build/*/**
+#!Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
@@ -72,9 +72,7 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-#Intermediate/Build/*
-Intermediate/AssetRegistryCache/*
-Intermediate/ReimportCache/*
+Intermediate/*
 Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
